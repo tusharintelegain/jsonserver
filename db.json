@@ -210,6 +210,697 @@
           ]
         }
       ]
+    },
+    {
+      "Party_Name": "SALAS, JACQUELYN H ",
+      "Alert": "734952",
+      "Impact": "90",
+      "Alert_Category": "Medicaid Exclusion",
+      "DaysRemaining": 5,
+      "TAT": 20,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Physician/Surgeon",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon"
+      ],
+      "Status": "Declined"
+    },
+    {
+      "Party_Name": "GABLE, THOMAS ",
+      "Alert": "732691",
+      "Impact": "130",
+      "Alert_Category": "OIG",
+      "DaysRemaining": 10,
+      "TAT": 20,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Physician",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact"
+      ],
+      "Status": ""
+    },
+    {
+      "Party_Name": "SHAH, RENA H",
+      "Alert": "732563",
+      "Impact": "110",
+      "Alert_Category": "NPI Issues",
+      "DaysRemaining": 7,
+      "TAT": 20,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Surgeon",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon"
+      ],
+      "Status": ""
+    },
+    {
+      "Party_Name": "KALMONOWITZ, STUART",
+      "Alert": "732541",
+      "Impact": "20",
+      "Alert_Category": "License Issues",
+      "DaysRemaining": 12,
+      "TAT": 20,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Physician/Surgeon",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact"
+      ],
+      "Status": "",
+      "simillarAlerts": [
+        {
+          "Party_Name": "Yousefian-Tehrani, Hrair ",
+          "Alert": "879749",
+          "Impact": "100",
+          "Alert_Category": "SSA DMF",
+          "DaysRemaining": 10,
+          "TAT": 20,
+          "ActionBtns": [
+            {
+              "name": "View",
+              "routingURL": "/resolution",
+              "iconName": "icon-Union-77"
+            },
+            {
+              "name": "Provider",
+              "routingURL": "/resolution",
+              "iconName": "icon-Union-81"
+            },
+            {
+              "name": "Resolution",
+              "routingURL": "/resolution",
+              "iconName": "icon-auction-1"
+            }
+          ],
+          "IsChecked": false,
+          "ProviderType": "Physician/Surgeon",
+          "InprogressMilstone": [
+            {
+              "name": "Reviewer",
+              "status": "completed"
+            },
+            {
+              "name": "Supervisor",
+              "status": "active"
+            },
+            {
+              "name": "Test 1",
+              "status": "pending"
+            },
+            {
+              "name": "Test 2",
+              "status": "pending"
+            },
+            {
+              "name": "Test 3",
+              "status": "pending"
+            },
+            {
+              "name": "Test 4",
+              "status": "pending"
+            }
+          ],
+          "Tags": [
+            "#surgeon",
+            "#high-impact",
+            "#SSA-DMF",
+            "#surgeon",
+            "#high-impact",
+            "#SSA-DMF",
+            "#surgeon",
+            "#high-impact",
+            "#SSA-DMF"
+          ]
+        },
+        {
+          "Party_Name": "Yousefian-Tehrani, Hrair ",
+          "Alert": "879749",
+          "Impact": "100",
+          "Alert_Category": "SSA DMF",
+          "DaysRemaining": 10,
+          "TAT": 20,
+          "ActionBtns": [
+            {
+              "name": "View",
+              "routingURL": "/resolution",
+              "iconName": "icon-Union-77"
+            },
+            {
+              "name": "Provider",
+              "routingURL": "/resolution",
+              "iconName": "icon-Union-81"
+            },
+            {
+              "name": "Resolution",
+              "routingURL": "/resolution",
+              "iconName": "icon-auction-1"
+            }
+          ],
+          "IsChecked": false,
+          "ProviderType": "Physician/Surgeon",
+          "InprogressMilstone": [
+            {
+              "name": "Reviewer",
+              "status": "completed"
+            },
+            {
+              "name": "Supervisor",
+              "status": "active"
+            },
+            {
+              "name": "Test 1",
+              "status": "pending"
+            },
+            {
+              "name": "Test 2",
+              "status": "pending"
+            },
+            {
+              "name": "Test 3",
+              "status": "pending"
+            },
+            {
+              "name": "Test 4",
+              "status": "pending"
+            }
+          ],
+          "Tags": [
+            "#surgeon",
+            "#high-impact",
+            "#SSA-DMF",
+            "#surgeon",
+            "#high-impact",
+            "#SSA-DMF",
+            "#surgeon",
+            "#high-impact",
+            "#SSA-DMF"
+          ]
+        }
+      ]
+    },
+    {
+      "Party_Name": "DISHOP, MEGAN K",
+      "Alert": "732444",
+      "Impact": "30",
+      "Alert_Category": "Sanctions",
+      "DaysRemaining": 12,
+      "TAT": 20,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Physician/Surgeon",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#surgeon",
+        "#high-impact",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF"
+      ],
+      "Status": "Declined"
+    },
+    {
+      "Party_Name": "Aaron, Hank.",
+      "Alert": "734974",
+      "Impact": "40",
+      "Alert_Category": "OIG",
+      "DaysRemaining": 7,
+      "TAT": 20,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Physician/Surgeon",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF"
+      ],
+      "Status": ""
+    },
+    {
+      "Party_Name": "Abagnale, Frank",
+      "Alert": "732596",
+      "Impact": "50",
+      "Alert_Category": "Medicare Exclusion",
+      "DaysRemaining": 2,
+      "TAT": 25,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Physician/Surgeon",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon",
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF"
+      ],
+      "Status": ""
+    },
+    {
+      "Party_Name": "Abel, Reuben.",
+      "Alert": "735963",
+      "Impact": "50",
+      "Alert_Category": "Medicare Exclusion",
+      "DaysRemaining": 2,
+      "TAT": 25,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Physician/Surgeon",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#surgeon",
+        "#high-impact",
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF"
+      ],
+      "Status": ""
+    },
+    {
+      "Party_Name": "Abbey, Edward.",
+      "Alert": "735974",
+      "Impact": "80",
+      "Alert_Category": "SAM",
+      "DaysRemaining": 7,
+      "TAT": 20,
+      "ActionBtns": [
+        {
+          "name": "View",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-77"
+        },
+        {
+          "name": "Provider",
+          "routingURL": "/resolution",
+          "iconName": "icon-Union-81"
+        },
+        {
+          "name": "Resolution",
+          "routingURL": "/resolution",
+          "iconName": "icon-auction-1"
+        }
+      ],
+      "IsChecked": false,
+      "ProviderType": "Physician/Surgeon",
+      "InprogressMilstone": [
+        {
+          "name": "Reviewer",
+          "status": "completed"
+        },
+        {
+          "name": "Supervisor",
+          "status": "active"
+        },
+        {
+          "name": "Test 1",
+          "status": "pending"
+        },
+        {
+          "name": "Test 2",
+          "status": "pending"
+        },
+        {
+          "name": "Test 3",
+          "status": "pending"
+        },
+        {
+          "name": "Test 4",
+          "status": "pending"
+        }
+      ],
+      "Tags": [
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF",
+        "#surgeon",
+        "#high-impact",
+        "#SSA-DMF"
+      ],
+      "Status": ""
     }
   ]
 }

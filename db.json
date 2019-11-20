@@ -1,124 +1,12 @@
 {
-  "alertCounts": {
-    "alertsYetToBeAssigned": {
-      "total": 14,
-      "alertCategory": [
-        "SSA DMF: 50",
-        "OIG: 20",
-        "SAM: 20",
-        "S & I: 20",
-        "Medicaid: 20",
-        "Medicare: 15",
-        "NPI Issues: 15",
-        "Licenses: 10",
-        "Sanctions: 10",
-        "Int. watchlist: 10"
-      ],
-      "alertCategoryValues": [
-        30,
-        20,
-        20,
-        20,
-        20,
-        15,
-        15,
-        10,
-        10,
-        20
-      ]
-    },
-    "alertAssignedtoMe": {
-      "total": 60,
-      "alertCategory": [
-        "SSA DMF: 30",
-        "OIG: 20",
-        "SAM: 20",
-        "S & I: 20",
-        "Medicaid: 20",
-        "Medicare: 15",
-        "NPI Issues: 15",
-        "Licenses: 10",
-        "Sanctions: 10",
-        "Int. watchlist: 10"
-      ],
-      "alertCategoryValues": [
-        30,
-        20,
-        20,
-        20,
-        20,
-        15,
-        15,
-        10,
-        10,
-        20
-      ]
-    },
-    "alertInTeamQueue": {
-      "total": 30,
-      "alertCategory": [
-        "SSA DMF: 30",
-        "OIG: 20",
-        "SAM: 20",
-        "S & I: 20",
-        "Medicaid: 20",
-        "Medicare: 15",
-        "NPI Issues: 15",
-        "Licenses: 10",
-        "Sanctions: 10",
-        "Int. watchlist: 10"
-      ],
-      "alertCategoryValues": [
-        30,
-        20,
-        20,
-        20,
-        20,
-        15,
-        15,
-        10,
-        10,
-        20
-      ]
-    },
-    "closedAlert": {
-      "total": 80,
-      "alertCategory": [
-        "SSA DMF: 30",
-        "OIG: 20",
-        "SAM: 20",
-        "S & I: 20",
-        "Medicaid: 20",
-        "Medicare: 15",
-        "NPI Issues: 15",
-        "Licenses: 10",
-        "Sanctions: 10",
-        "Int. watchlist: 10"
-      ],
-      "alertCategoryValues": [
-        30,
-        20,
-        20,
-        20,
-        20,
-        15,
-        15,
-        10,
-        10,
-        20
-      ]
-    }
-  }, 
-  "alertsYetToBeAssigned": [
+  "alerts": [
     {
       "Party_Name": "Yousefian-Tehrani, Hrair ",
       "Alert": "879749",
-      "Impact": 100,
+      "Impact": "100",
       "Alert_Category": "SSA DMF",
-      "DAYS_REMAINING": 10,
-      "baseLine": 20,
-      "isNew": true,
-      "overdueStatus": "Normal",
+      "DaysRemaining": 10,
+      "TAT": 20,
       "ActionBtns": [
         {
           "name": "View",
@@ -141,27 +29,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -175,44 +63,42 @@
         "#high-impact",
         "#SSA-DMF"
       ],
-      "CaseIndicator": "D",
+      "Status": "",
       "simillarAlerts": [
         {
           "Party_Name": "Yousefian-Tehrani, Hrair ",
           "Alert": "879749",
-          "Impact": 100,
+          "Impact": "100",
           "Alert_Category": "OIG",
-          "DAYS_REMAINING": 10,
-          "baseLine": 20,
-          "isNew": true,
-          "overdueStatus": "Normal",
+          "DaysRemaining": 10,
+          "TAT": 20,
           "ActionBtns": [],
           "IsChecked": false,
           "ProviderType": "Physician/Surgeon",
           "InprogressMilstone": [
             {
               "name": "Reviewer",
-              "Status": "completed"
+              "status": "completed"
             },
             {
               "name": "Supervisor",
-              "Status": "active"
+              "status": "active"
             },
             {
               "name": "Test 1",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 2",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 3",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 4",
-              "Status": "pending"
+              "status": "pending"
             }
           ],
           "Tags": [
@@ -230,39 +116,37 @@
         {
           "Party_Name": "Yousefian-Tehrani, Hrair ",
           "Alert": "879749",
-          "Impact": 100,
+          "Impact": "100",
           "Alert_Category": "SAM",
-          "DAYS_REMAINING": 10,
-          "baseLine": 20,
-          "isNew": true,
-          "overdueStatus": "Normal",
+          "DaysRemaining": 10,
+          "TAT": 20,
           "ActionBtns": [],
           "IsChecked": false,
           "ProviderType": "Physician/Surgeon",
           "InprogressMilstone": [
             {
               "name": "Reviewer",
-              "Status": "completed"
+              "status": "completed"
             },
             {
               "name": "Supervisor",
-              "Status": "active"
+              "status": "active"
             },
             {
               "name": "Test 1",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 2",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 3",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 4",
-              "Status": "pending"
+              "status": "pending"
             }
           ],
           "Tags": [
@@ -280,39 +164,37 @@
         {
           "Party_Name": "Yousefian-Tehrani, Hrair ",
           "Alert": "879749",
-          "Impact": 100,
+          "Impact": "100",
           "Alert_Category": "S&I",
-          "DAYS_REMAINING": 10,
-          "baseLine": 20,
-          "isNew": true,
-          "overdueStatus": "Normal",
+          "DaysRemaining": 10,
+          "TAT": 20,
           "ActionBtns": [],
           "IsChecked": false,
           "ProviderType": "Physician/Surgeon",
           "InprogressMilstone": [
             {
               "name": "Reviewer",
-              "Status": "completed"
+              "status": "completed"
             },
             {
               "name": "Supervisor",
-              "Status": "active"
+              "status": "active"
             },
             {
               "name": "Test 1",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 2",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 3",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 4",
-              "Status": "pending"
+              "status": "pending"
             }
           ],
           "Tags": [
@@ -332,12 +214,10 @@
     {
       "Party_Name": "SALAS, JACQUELYN H ",
       "Alert": "734952",
-      "Impact": 90,
+      "Impact": "90",
       "Alert_Category": "Medicaid Exclusion",
-      "DAYS_REMAINING": 5,
-      "baseLine": 20,
-      "isNew": false,
-      "overdueStatus": "Normal",
+      "DaysRemaining": 5,
+      "TAT": 20,
       "ActionBtns": [
         {
           "name": "View",
@@ -360,27 +240,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -389,17 +269,15 @@
         "#SSA-DMF",
         "#surgeon"
       ],
-      "CaseIndicator": "D"
+      "Status": "Declined"
     },
     {
       "Party_Name": "GABLE, THOMAS ",
       "Alert": "732691",
-      "Impact": 30,
+      "Impact": "130",
       "Alert_Category": "OIG",
-      "DAYS_REMAINING": 10,
-      "baseLine": 20,
-      "isNew": true,
-      "overdueStatus": "Normal",
+      "DaysRemaining": 10,
+      "TAT": 20,
       "ActionBtns": [
         {
           "name": "View",
@@ -422,27 +300,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -452,17 +330,15 @@
         "#surgeon",
         "#high-impact"
       ],
-      "CaseIndicator": "P"
+      "Status": ""
     },
     {
       "Party_Name": "SHAH, RENA H",
       "Alert": "732563",
-      "Impact": 10,
+      "Impact": "110",
       "Alert_Category": "NPI Issues",
-      "DAYS_REMAINING": 7,
-      "baseLine": 20,
-      "isNew": true,
-      "overdueStatus": "ProneToOverdue",
+      "DaysRemaining": 7,
+      "TAT": 20,
       "ActionBtns": [
         {
           "name": "View",
@@ -485,27 +361,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -517,17 +393,15 @@
         "#SSA-DMF",
         "#surgeon"
       ],
-      "CaseIndicator": "P"
+      "Status": ""
     },
     {
       "Party_Name": "KALMONOWITZ, STUART",
       "Alert": "732541",
-      "Impact": 20,
+      "Impact": "20",
       "Alert_Category": "License Issues",
-      "DAYS_REMAINING": 12,
-      "baseLine": 20,
-      "isNew": false,
-      "overdueStatus": "ProneToOverdue",
+      "DaysRemaining": 12,
+      "TAT": 20,
       "ActionBtns": [
         {
           "name": "View",
@@ -550,27 +424,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -583,17 +457,15 @@
         "#surgeon",
         "#high-impact"
       ],
-      "CaseIndicator": "P",
+      "Status": "",
       "simillarAlerts": [
         {
           "Party_Name": "Yousefian-Tehrani, Hrair ",
           "Alert": "879749",
-          "Impact": 100,
+          "Impact": "100",
           "Alert_Category": "SSA DMF",
-          "DAYS_REMAINING": 10,
-          "baseLine": 20,
-          "isNew": true,
-          "overdueStatus": "Normal",
+          "DaysRemaining": 10,
+          "TAT": 20,
           "ActionBtns": [
             {
               "name": "View",
@@ -616,27 +488,27 @@
           "InprogressMilstone": [
             {
               "name": "Reviewer",
-              "Status": "completed"
+              "status": "completed"
             },
             {
               "name": "Supervisor",
-              "Status": "active"
+              "status": "active"
             },
             {
               "name": "Test 1",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 2",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 3",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 4",
-              "Status": "pending"
+              "status": "pending"
             }
           ],
           "Tags": [
@@ -654,12 +526,10 @@
         {
           "Party_Name": "Yousefian-Tehrani, Hrair ",
           "Alert": "879749",
-          "Impact": 100,
+          "Impact": "100",
           "Alert_Category": "SSA DMF",
-          "DAYS_REMAINING": 10,
-          "baseLine": 20,
-          "isNew": true,
-          "overdueStatus": "Normal",
+          "DaysRemaining": 10,
+          "TAT": 20,
           "ActionBtns": [
             {
               "name": "View",
@@ -682,27 +552,27 @@
           "InprogressMilstone": [
             {
               "name": "Reviewer",
-              "Status": "completed"
+              "status": "completed"
             },
             {
               "name": "Supervisor",
-              "Status": "active"
+              "status": "active"
             },
             {
               "name": "Test 1",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 2",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 3",
-              "Status": "pending"
+              "status": "pending"
             },
             {
               "name": "Test 4",
-              "Status": "pending"
+              "status": "pending"
             }
           ],
           "Tags": [
@@ -722,12 +592,10 @@
     {
       "Party_Name": "DISHOP, MEGAN K",
       "Alert": "732444",
-      "Impact": 30,
+      "Impact": "30",
       "Alert_Category": "Sanctions",
-      "DAYS_REMAINING": 12,
-      "baseLine": 20,
-      "isNew": true,
-      "overdueStatus": "ProneToOverdue",
+      "DaysRemaining": 12,
+      "TAT": 20,
       "ActionBtns": [
         {
           "name": "View",
@@ -750,27 +618,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -782,17 +650,15 @@
         "#high-impact",
         "#SSA-DMF"
       ],
-      "CaseIndicator": "D"
+      "Status": "Declined"
     },
     {
       "Party_Name": "Aaron, Hank.",
       "Alert": "734974",
-      "Impact": 40,
+      "Impact": "40",
       "Alert_Category": "OIG",
-      "DAYS_REMAINING": 7,
-      "baseLine": 20,
-      "isNew": false,
-      "overdueStatus": "Overdue",
+      "DaysRemaining": 7,
+      "TAT": 20,
       "ActionBtns": [
         {
           "name": "View",
@@ -815,27 +681,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -847,17 +713,15 @@
         "#high-impact",
         "#SSA-DMF"
       ],
-      "CaseIndicator": "P"
+      "Status": ""
     },
     {
       "Party_Name": "Abagnale, Frank",
       "Alert": "732596",
-      "Impact": 50,
+      "Impact": "50",
       "Alert_Category": "Medicare Exclusion",
-      "DAYS_REMAINING": 2,
-      "baseLine": 25,
-      "isNew": true,
-      "overdueStatus": "Overdue",
+      "DaysRemaining": 2,
+      "TAT": 25,
       "ActionBtns": [
         {
           "name": "View",
@@ -880,27 +744,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -913,17 +777,15 @@
         "#high-impact",
         "#SSA-DMF"
       ],
-      "CaseIndicator": "P"
+      "Status": ""
     },
     {
       "Party_Name": "Abel, Reuben.",
       "Alert": "735963",
-      "Impact": 50,
+      "Impact": "50",
       "Alert_Category": "Medicare Exclusion",
-      "DAYS_REMAINING": 2,
-      "baseLine": 25,
-      "isNew": false,
-      "overdueStatus": "Normal",
+      "DaysRemaining": 2,
+      "TAT": 25,
       "ActionBtns": [
         {
           "name": "View",
@@ -946,27 +808,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -976,17 +838,15 @@
         "#high-impact",
         "#SSA-DMF"
       ],
-      "CaseIndicator": "P"
+      "Status": ""
     },
     {
       "Party_Name": "Abbey, Edward.",
       "Alert": "735974",
-      "Impact": 80,
+      "Impact": "80",
       "Alert_Category": "SAM",
-      "DAYS_REMAINING": 7,
-      "baseLine": 20,
-      "isNew": true,
-      "overdueStatus": "Normal",
+      "DaysRemaining": 7,
+      "TAT": 20,
       "ActionBtns": [
         {
           "name": "View",
@@ -1009,27 +869,27 @@
       "InprogressMilstone": [
         {
           "name": "Reviewer",
-          "Status": "completed"
+          "status": "completed"
         },
         {
           "name": "Supervisor",
-          "Status": "active"
+          "status": "active"
         },
         {
           "name": "Test 1",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 2",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 3",
-          "Status": "pending"
+          "status": "pending"
         },
         {
           "name": "Test 4",
-          "Status": "pending"
+          "status": "pending"
         }
       ],
       "Tags": [
@@ -1040,266 +900,7 @@
         "#high-impact",
         "#SSA-DMF"
       ],
-      "CaseIndicator": "P"
-    },
-    {
-      "Party_Name": "Abbey, Edward.",
-      "Alert": "735975",
-      "Impact": 80,
-      "Alert_Category": "SAM",
-      "DAYS_REMAINING": 7,
-      "baseLine": 20,
-      "isNew": false,
-      "overdueStatus": "Overdue",
-      "ActionBtns": [
-        {
-          "name": "View",
-          "routingURL": "/resolution",
-          "iconName": "icon-Union-77"
-        },
-        {
-          "name": "Provider",
-          "routingURL": "/resolution",
-          "iconName": "icon-Union-81"
-        },
-        {
-          "name": "Resolution",
-          "routingURL": "/resolution",
-          "iconName": "icon-auction-1"
-        }
-      ],
-      "IsChecked": false,
-      "ProviderType": "Physician/Surgeon",
-      "InprogressMilstone": [
-        {
-          "name": "Reviewer",
-          "Status": "completed"
-        },
-        {
-          "name": "Supervisor",
-          "Status": "active"
-        },
-        {
-          "name": "Test 1",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 2",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 3",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 4",
-          "Status": "pending"
-        }
-      ],
-      "Tags": [
-        "#surgeon",
-        "#high-impact",
-        "#SSA-DMF",
-        "#surgeon",
-        "#high-impact",
-        "#SSA-DMF"
-      ],
-      "CaseIndicator": "P"
-    },
-    {
-      "Party_Name": "Abbey, Edward.",
-      "Alert": "735976",
-      "Impact": 80,
-      "Alert_Category": "SAM",
-      "DAYS_REMAINING": 7,
-      "baseLine": 20,
-      "isNew": true,
-      "overdueStatus": "Normal",
-      "ActionBtns": [
-        {
-          "name": "View",
-          "routingURL": "/resolution",
-          "iconName": "icon-Union-77"
-        },
-        {
-          "name": "Provider",
-          "routingURL": "/resolution",
-          "iconName": "icon-Union-81"
-        },
-        {
-          "name": "Resolution",
-          "routingURL": "/resolution",
-          "iconName": "icon-auction-1"
-        }
-      ],
-      "IsChecked": false,
-      "ProviderType": "Physician/Surgeon",
-      "InprogressMilstone": [
-        {
-          "name": "Reviewer",
-          "Status": "completed"
-        },
-        {
-          "name": "Supervisor",
-          "Status": "active"
-        },
-        {
-          "name": "Test 1",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 2",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 3",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 4",
-          "Status": "pending"
-        }
-      ],
-      "Tags": [
-        "#surgeon",
-        "#high-impact",
-        "#SSA-DMF",
-        "#surgeon",
-        "#high-impact",
-        "#SSA-DMF"
-      ],
-      "CaseIndicator": "P"
-    },
-    {
-      "Party_Name": "Abbey, Edward.",
-      "Alert": "735977",
-      "Impact": 80,
-      "Alert_Category": "SAM",
-      "DAYS_REMAINING": 7,
-      "baseLine": 20,
-      "isNew": true,
-      "overdueStatus": "Normal",
-      "ActionBtns": [
-        {
-          "name": "View",
-          "routingURL": "/resolution",
-          "iconName": "icon-Union-77"
-        },
-        {
-          "name": "Provider",
-          "routingURL": "/resolution",
-          "iconName": "icon-Union-81"
-        },
-        {
-          "name": "Resolution",
-          "routingURL": "/resolution",
-          "iconName": "icon-auction-1"
-        }
-      ],
-      "IsChecked": false,
-      "ProviderType": "Physician/Surgeon",
-      "InprogressMilstone": [
-        {
-          "name": "Reviewer",
-          "Status": "completed"
-        },
-        {
-          "name": "Supervisor",
-          "Status": "active"
-        },
-        {
-          "name": "Test 1",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 2",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 3",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 4",
-          "Status": "pending"
-        }
-      ],
-      "Tags": [
-        "#surgeon",
-        "#high-impact",
-        "#SSA-DMF",
-        "#surgeon",
-        "#high-impact",
-        "#SSA-DMF"
-      ],
-      "CaseIndicator": "P"
-    },
-    {
-      "Party_Name": "Abbey, Edward.",
-      "Alert": "735978",
-      "Impact": 80,
-      "Alert_Category": "SAM",
-      "DAYS_REMAINING": 7,
-      "baseLine": 20,
-      "isNew": true,
-      "overdueStatus": "Normal",
-      "ActionBtns": [
-        {
-          "name": "View",
-          "routingURL": "/resolution",
-          "iconName": "icon-Union-77"
-        },
-        {
-          "name": "Provider",
-          "routingURL": "/resolution",
-          "iconName": "icon-Union-81"
-        },
-        {
-          "name": "Resolution",
-          "routingURL": "/resolution",
-          "iconName": "icon-auction-1"
-        }
-      ],
-      "IsChecked": false,
-      "ProviderType": "Physician/Surgeon",
-      "InprogressMilstone": [
-        {
-          "name": "Reviewer",
-          "Status": "completed"
-        },
-        {
-          "name": "Supervisor",
-          "Status": "active"
-        },
-        {
-          "name": "Test 1",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 2",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 3",
-          "Status": "pending"
-        },
-        {
-          "name": "Test 4",
-          "Status": "pending"
-        }
-      ],
-      "Tags": [
-        "#surgeon",
-        "#high-impact",
-        "#SSA-DMF",
-        "#surgeon",
-        "#high-impact",
-        "#SSA-DMF"
-      ],
-      "CaseIndicator": "P"
+      "Status": ""
     }
-  ],
-  "alertAssignedtoMe": [],
-  "alertInTeamQueue": [],
-  "closedAlert": []
+  ]
 }
